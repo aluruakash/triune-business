@@ -65,51 +65,7 @@ li.tag-line{
 	clear: both;
 }
 @media(min-width: 1200px){
-	img.goaldinaire{
-		width: 8%;
-		position: absolute;
-		left: 150px;
-		top:22px;
-		bottom: 0;
-		margin-top: auto;
-		margin-bottom: auto;
-	}
-	img.karnataka-alps{
-		width: 9%;
-		position: absolute;
-		left: 350px;
-		top:5px;
-		bottom: 0;
-		margin-top: auto;
-		margin-bottom: auto;
-	}
-	img.alp-music{
-		width: 6%;
-		position: absolute;
-		left: 550px;
-		top:0px;
-		bottom: 0;
-		margin-top: auto;
-		margin-bottom: auto;
-	}
-	img.alp-radio{
-		width: 6%;
-		position: absolute;
-		left: 750px;
-		top:0px;
-		bottom: 0;
-		margin-top: auto;
-		margin-bottom: auto;
-	}
-	img.alpha-digitech{
-		width: 9%;
-		position: absolute;
-		left: 950px;
-		top:0px;
-		bottom: 0;
-		margin-top: auto;
-		margin-bottom: auto;
-	}
+
 	#client{
 		padding-top: 30px;
 	}
@@ -118,21 +74,22 @@ li.tag-line{
 	}
 	.carousel-caption h3{
 		position: absolute;
-		top:-130px;
-		left:40px;
+		top:-200px;
+		left:120px;
 		width: 50%;
 		text-align: justify;
 		line-height: 1.5em;
+		color: white;
 	}
 	.carousel-caption p{
 		position: absolute;
-		top:-40px;
+		top:-90px;
 		width: 50%;
 		left: 0;
-		right: 200px;
+		right: 80px;
 		margin-left: auto;
 		margin-right: auto;
-		color: black;
+		color: white;
 	}
 	img.goaldinaire-img{
 		float: right;
@@ -342,57 +299,13 @@ body{
 	}
 }
 @media(max-width: 767px){
-	img.goaldinaire{
-		width: 50%;
-		position: absolute;
-		left: 0px;
-		right: 0px;
-		top:0px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	img.karnataka-alps{
-		width: 50%;
-		position: absolute;
-		left: 0px;
-		right: 0px;
-		top:200px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	img.alp-music{
-		width: 50%;
-		position: absolute;
-		left: 0px;
-		right: 0px;
-		top:400px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	img.alp-radio{
-		width: 50%;
-		position: absolute;
-		left: 0px;
-		right: 0px;
-		top:600px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	img.alpha-digitech{
-		width: 50%;
-		position: absolute;
-		left: 0px;
-		right: 0px;
-		top:800px;
-		margin-left: auto;
-		margin-right: auto;
-	}
+
 	.c-logo-part{
 		height: 1000px;
 		margin-top: 0;
 	}
 	.carousel-indicators{
-		top: 80px;
+		
 	}
 }
 @media(max-width: 767px){
@@ -406,54 +319,6 @@ body{
 @media(min-width: 768px) and (max-width: 1199px){
 	.header .container{
 		margin-top: -200px;
-	}
-	img.goaldinaire{
-		width: 8%;
-		position: absolute;
-		left: 150px;
-		top:10px;
-		bottom: 0;
-		margin-top: auto;
-		margin-bottom: auto;
-	}
-	img.karnataka-alps{
-		width: 8%;
-		position: absolute;
-		left: 250px;
-		top:5px;
-		bottom: 0;
-		margin-top: auto;
-		margin-bottom: auto;
-	}
-	img.alp-music{
-		width: 6%;
-		position: absolute;
-		left: 350px;
-		top:0px;
-		bottom: 0;
-		margin-top: auto;
-		margin-bottom: auto;
-	}
-	img.alp-radio{
-		width: 6%;
-		position: absolute;
-		left: 450px;
-		top:0px;
-		bottom: 0;
-		margin-top: auto;
-		margin-bottom: auto;
-	}
-	img.alpha-digitech{
-		width: 6%;
-		position: absolute;
-		left: 550px;
-		top:0px;
-		bottom: 0;
-		margin-top: auto;
-		margin-bottom: auto;
-	}
-	.carousel-indicators{
-		top: 250px;
 	}
 	.team{
 		height: 500px;
@@ -578,7 +443,7 @@ body{
 			}
 			.carousel-indicators
 			{
-				bottom: -50px;
+				margin-top: 50px;
 			}
 			.carousel-indicators li
 			{
@@ -590,7 +455,7 @@ body{
 				cursor: pointer;
 				background-color: #000\9;
 				background-color: rgba(0,0,0,0);
-				border: 1px solid #16a085;
+				border: 1px solid black;
 				border-radius: 50%;
 			}
 			.carousel-indicators .active
@@ -598,7 +463,7 @@ body{
 				width: 12px;
 				height: 12px;
 				margin: 0;
-				background-color: #16a085;
+				background-color: yellow;
 			}
 			.carousel-caption
 			{
@@ -615,54 +480,209 @@ body{
 
 
 @media(min-width: 1200px){
-	img.client-img{
+	img.client-img1{
 		width: 20%;
 		position: absolute;
-		top:-180px;
+		top:-250px;
 		right: 100px;
 		margin-left: auto;
 		margin-right: auto;
 	}
-	.gray-img{
-		width: 100%;
-		display: block;
+	img.client-img2{
+		width: 20%;
+		position: absolute;
+		top:-250px;
+		right: 100px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	img.client-img3{
+		width: 20%;
+		background-color: white;
+		position: absolute;
+		top:-280px;
+		right: 100px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	img.client-img4{
+		width: 20%;
+		position: absolute;
+		top:-280px;
+		right: 100px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	img.client-img5{
+		width: 20%;
+		position: absolute;
+		top:-300px;
+		right: 100px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	h2.testimony {
-		margin-top: 50px;
+		margin-top: 20px;
 	}
 }
 
-@media(max-width: 1199px){
+@media(max-width: 767px){
 	.carousel-caption h3{
 		position: absolute;
-		top:0px;
+		top:-120px;
+		left: 0;
+		right: 0;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 10px;
+		color: white;
 	}
 	.carousel-caption p{
 		position: absolute;
-		top:150px;
+		top:-50px;
 		left: 0;
 		right: 0;
 		margin-left: auto;margin-right: auto;
-		font-size: 15px;
+		font-size: 10px;
 	}
-	.gray-img{
-		height: 650px !important;
+	.client-img1{
+		position: absolute;
+		top:-30px;
+		width: 20%;
+		right: 20px;
 	}
-	.client-img{
-		margin-top: 160px;
+	.client-img2{
+		position: absolute;
+		top:-100px;
+		width: 20%;
+		left:0;
+		right: 0px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.client-img3{
+		position: absolute;
+		background-color: white;
+		top:-100px;
+		width: 20%;
+		left:0;
+		right: 0px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.client-img4{
+		position: absolute;
+		top:-100px;
+		width: 20%;
+		left:0;
+		right: 0px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.client-img5{
+		position: absolute;
+		top:-100px;
+		width: 20%;
+		left:0;
+		right: 0px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.carousel-indicators{
+		margin-top: 50px;
 	}
 }
-@media(min-width: 768px) and (max-width: 1199px){
+.header h1{
+	text-transform: uppercase;
+}
+
+
+@media(min-width: 768px) and (max-width: 991px){
 	.carousel-caption h3{
 		position: absolute;
-		top:250px;
+		top:-150px;
+		left: 10px;
+		right: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 10px;
+		color: white;
 	}
 	.carousel-caption p{
 		position: absolute;
-		top:330px;
+		top:-120px;
+		left: 0;
+		right: 0;
+		margin-left: auto;margin-right: auto;
+		font-size: 10px;
 	}
-	.client-img{
-		margin-top: 350px;
+	.client-img1{
+		position: absolute;
+		top:-120px;
+		width: 20%;
+		right: 20px;
 	}
-
+	.client-img2{
+		position: absolute;
+		top:-300px;
+		width: 20%;
+		left:0;
+		right: 0px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.client-img3{
+		position: absolute;
+		background-color: white;
+		top:-300px;
+		width: 20%;
+		left:0;
+		right: 0px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.client-img4{
+		position: absolute;
+		top:-300px;
+		width: 20%;
+		left:0;
+		right: 0px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.client-img5{
+		position: absolute;
+		top:-300px;
+		width: 20%;
+		left:0;
+		right: 0px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media(min-width: 992px) and (max-width: 1199px){
+	.carousel-caption h3{
+		position: absolute;
+		top:-350px;
+		left: 10px;
+		right: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 10px;
+		color: white;
+	}
+	.carousel-caption p{
+		position: absolute;
+		top:-320px;
+		left: 0;
+		right: 0;
+		margin-left: auto;margin-right: auto;
+		font-size: 10px;
+	}
+	.client-img1{
+		position: absolute;
+		top:-320px;
+		width: 20%;
+		right: 20px;
+	}
 }
